@@ -8,6 +8,7 @@ The database is by google firestore.
 The view are contrainted to portrait mode.
 
 Error handling for authentication and posting and recieving data from the database.
+Email is send to the course teacher, telling him that a new rating has been saved.
 
 Created by Jakob Wulff.
 
