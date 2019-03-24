@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Controllers.RateCourseActivity">
+
+    <TextView
+        android:id="@+id/rateCourseTextView"
+        android:layout_width="211dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/rateCourseTextView1"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/subjectRatingTextView"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/subjectRatingTextView"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rateCourseTextView" />
+
+    <TextView
+        android:id="@+id/performanceTextView"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/performanceTextView"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/subjectRelevanceRatingBar" />
+
+    <TextView
+        android:id="@+id/preparerationTextView"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/preperationTextView"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/perormanceRatingBar" />
+
+    <TextView
+        android:id="@+id/feedbackTextView"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/feedbackTextView"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/preperationRatingBar" />
+
+    <TextView
+        android:id="@+id/examplesTextView"
+        android:layout_width="200dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/examplesTextView"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/feedbackRatingBar" />
+
+    <TextView
+        android:id="@+id/jobOpportunitiesTextView"
+        android:layout_width="200dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/jobOpportunities"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/examplesRatingBar" />
+
+    <RatingBar
+        android:id="@+id/subjectRelevanceRatingBar"
+        style="@android:style/Widget.Material.RatingBar"
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:numStars="5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/subjectRatingTextView" tools:targetApi="lollipop" />
+
+    <RatingBar
+        android:id="@+id/perormanceRatingBar"
+        style="@android:style/Widget.Material.RatingBar"
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:numStars="5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/performanceTextView" tools:targetApi="lollipop" />
+
+    <RatingBar
+        android:id="@+id/preperationRatingBar"
+        style="@android:style/Widget.Material.RatingBar"
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:numStars="5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/preparerationTextView" tools:targetApi="lollipop" />
+
+    <RatingBar
+        android:id="@+id/feedbackRatingBar"
+        style="@android:style/Widget.Material.RatingBar"
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:numStars="5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/feedbackTextView" tools:targetApi="lollipop" />
+
+    <RatingBar
+        android:id="@+id/examplesRatingBar"
+        style="@android:style/Widget.Material.RatingBar"
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:numStars="5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/examplesTextView" tools:targetApi="lollipop" />
+
+    <RatingBar
+        android:id="@+id/jobOpportunitiesRatingBar"
+        style="@android:style/Widget.Material.RatingBar"
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:numStars="5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/jobOpportunitiesTextView" tools:targetApi="lollipop" />
+
+    <Button
+        android:id="@+id/rateButton"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@android:color/holo_green_light"
+        android:text="@string/rateButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/rateCourseTextView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

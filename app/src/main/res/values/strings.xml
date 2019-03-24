@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">MyCourseRatingApp</string>
+    <string name="rateCourseTextView">Course Details</string>
+    <string name="typeTextView">Type</string>
+    <string name="titleheadlineTextView">Title</string>
+    <string name="semesterTitleTextView">Semester</string>
+    <string name="teacherTitleTextView">Teacher</string>
+    <string name="averageRatingTextView">Course Average</string>
+    <string name="showRateButton">Rate</string>
+    <string name="allRatingsButton">All Ratings</string>
+    <string name="signOutButton">Sign Out</string>
+    <string name="emailEditText">email</string>
+    <string name="signInButton">Sign In</string>
+    <string name="signUpButton">Sign Up</string>
+    <string name="passwordEditText">password</string>
+    <string name="headlineTextView">Course Rating</string>
+    <string name="subjectRatingTextView">Subject Relevance</string>
+    <string name="rateButton">Rate</string>
+    <string name="jobOpportunities">Job Opportunities</string>
+    <string name="examplesTextView">Quility of Examples</string>
+    <string name="feedbackTextView">Feedback</string>
+    <string name="rateCourseTextView1">Rate Course</string>
+    <string name="performanceTextView">Performance</string>
+    <string name="preperationTextView">Preperation</string>
+</resources>
